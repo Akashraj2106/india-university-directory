@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>University List Finder</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>University Finder - Akash Raj</h1>
+    <p>Search for universities by Country or State (India only)</p>
+  </header>
+
+  <div class="container">
+    <select id="mode">
+      <option value="country">Search by Country</option>
+      <option value="state">Search by State (India Only)</option>
+    </select>
+    <input type="text" id="search" placeholder="Enter name..."/>
+    <button onclick="handleSearch()">Search</button>
+  </div>
+
+  <table id="resultTable" style="display: none;">
+    <thead>
+      <tr>
+        <th>University Name</th>
+        <th>Website</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <section id="doc">
+    <h2>📄 Project Documentation</h2>
+    <p>
+      This web app uses the free Hipolabs Universities API to fetch university data based on a country or an Indian state. When the user searches by country, the API filters results directly. When searching by state, the app fetches all Indian universities first and filters them client-side using the input keyword in the university name or `state-province` field.
+      <br><br>
+      Technologies used: HTML, CSS, JavaScript, Axios, and Hipolabs API.  
+      Designed with responsiveness and 3D animated UI effects for better user experience.
+    </p>
+  </section>
+
+  <script src="script.js">
+    
+  </script>
+
+</body>
+</html>
