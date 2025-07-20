@@ -55,43 +55,19 @@ bash
 Copy
 Edit
 university-search-app/
+<br>
 │
-├── index.html        # Main HTML file
-├── README.md         # Project description
-└── preview.png       # Screenshot (add one if needed)
+<br>
+├── index.html 
+<br>       # Main HTML file
+├── README.md   
+<br>      # Project description
+└── preview.png   
+<br>    # Screenshot (add one if needed)
 📡 API Used
 Hipolabs Universities API
 
-Example request:
 
-arduino
-Copy
-Edit
-https://universities.hipolabs.com/search?country=India
-📌 Todo / Improvements
- Add Dark Mode
-
- Export to Excel/CSV
-
- Live search as you type
-
- Add filter by city or type (public/private)
-
-🙋‍♂️ Author
-Made with ❤️ by Akash Raj
-
-"Code with passion, deploy with purpose."
-
-🔗 GitHub
-📧 Contact Me
-
-
-
-### ✅ How to Use
-
-1. Save this file as `README.md`.
-2. Add a screenshot image named `preview.png` in the same folder (or change the name in the file).
-3. Push it to GitHub:
 
 ```bash
 git add .
