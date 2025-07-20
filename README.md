@@ -58,14 +58,18 @@ university-search-app/
 <br>
 │
 <br>
-├── index.html 
-<br>       # Main HTML file
-├── README.md   
-<br>      # Project description
-└── preview.png   
-<br>    # Screenshot (add one if needed)
-📡 API Used
-Hipolabs Universities API
+├── index.html  # Main HTML file
+<br>
+├── style.css  # Main css file
+<br> 
+├── script.js  # Main javascript file
+<br>   
+├── README.md    # Project description
+<br>     
+└── preview.png   # Screenshot (add one if needed)
+<br>    
+📡 API Used  Hipolabs Universities API
+
 
 
 
