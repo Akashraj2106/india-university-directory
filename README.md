@@ -40,15 +40,14 @@ https://akashraj2106.github.io/india-university-directory/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/university-search-app.git
+   git clone https://github.com/your-username/india-university-directory.git
 Navigate to the project folder:
 
 bash
 Copy
 Edit
-cd university-search-app
-Open index.html in your browser
-You can also use VS Code Live Server or deploy online.
+cd india-university-directory
+
 
 📂 Project Structure
 bash
